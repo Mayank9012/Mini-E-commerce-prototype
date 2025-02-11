@@ -31,7 +31,7 @@ StyledGenie/
 ## Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Mayank9012/Mini-E-commerce-prototype.git
+   git clone https://github.com/Mayank9012/Mini-E-commerce-prototype
    cd e-commerce
    ```
 2. Install dependencies:
