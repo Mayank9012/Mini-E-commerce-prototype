@@ -32,7 +32,7 @@ StyledGenie/
 1. Clone the repository:
    ```bash
    git clone https://github.com/Mayank9012/Mini-E-commerce-prototype
-   cd e-commerce
+   cd Mini-E-commerce-prototype
    ```
 2. Install dependencies:
    ```bash
