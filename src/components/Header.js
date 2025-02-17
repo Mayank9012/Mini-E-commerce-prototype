@@ -109,7 +109,7 @@ const Header = () => {
 
         <Box display="flex" justifyContent="center" flexGrow={1}>
           <LogoContainer>
-            <a href="http://localhost:3000/" target="_self">
+            <a href="/" target="_self">
               <img
                 src="https://static.wixstatic.com/media/20a295_b15c1c0b29c04005a9f963fe566e2b3f~mv2.png/v1/crop/x_586,y_131,w_637,h_858/fill/w_71,h_90,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Logo%20without%20BG.png"
                 alt="StyledGenie Logo"
