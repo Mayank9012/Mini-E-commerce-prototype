@@ -6,9 +6,10 @@ import products from '../data/products';
 import MostLovedProducts from '../components/MostLovedProducts';
 
 const HeroSection = styled(Box)(({ theme }) => ({
-  backgroundImage: 'url(https://t4.ftcdn.net/jpg/09/66/12/91/240_F_966129118_9rhcEru63BFyBseK5UjAN7KcpoUFWsKo.jpg)',
-  backgroundSize: 'cover',
-  backgroundPosition: 'center',
+  backgroundImage: 'url(https://img.freepik.com/free-photo/young-woman-wearing-fashionable-clothes_273609-21100.jpg?t=st=1740299781~exp=1740303381~hmac=eca4db4584dda1791d569f7dd600870f95ee0a34b6ec47aba780d00d8ccc3ba3&w=1800)',
+  backgroundSize: ' cover',
+  backgroundPosition: 'center top',
+  backgroundRepeat: 'no-repeat',
   color: theme.palette.common.white,
   padding: theme.spacing(8, 2),
   textAlign: 'center',
@@ -17,7 +18,6 @@ const HeroSection = styled(Box)(({ theme }) => ({
   },
   height: '50vh',
   marginTop: '10px',
-  
 }));
 
 const ServiceCard = styled(Card)(({ theme }) => ({
@@ -188,7 +188,7 @@ const Home = () => {
       </Container>
 
       {/* Call-to-Action Section */}
-      <Box sx={{ py: 8, textAlign: 'center', backgroundColor: '#a6718a', color: 'common.white' }}>
+      <Box sx={{ py: 8, textAlign: 'center', backgroundColor: '#ba7897', color: 'common.white' }}>
         <Typography variant="h4" component="h2" gutterBottom fontWeight={700} fontFamily={'Quicksand'}> 
           Ready to Elevate Your Style?
         </Typography>
