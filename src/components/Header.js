@@ -101,7 +101,7 @@ const Header = () => {
           </>
         ) : (
           <Box display="flex" flexGrow={1}>
-            <Typography variant="h6" fontFamily={"Quicksand "} fontWeight={600} component={Link} to="/Shop" sx={{ textDecoration: 'none', color: '#762f51' }}>
+            <Typography variant="h6" fontFamily={"Quicksand "} fontWeight={600} component={Link} to="/Shop" sx={{ textDecoration: 'none', color: '#7e2233' }}>
               Shop
             </Typography>
           </Box>
