@@ -188,7 +188,7 @@ const Home = () => {
       </Container>
 
       {/* Call-to-Action Section */}
-      <Box sx={{ py: 8, textAlign: 'center', backgroundColor: '#ba7897', color: 'common.white' }}>
+      <Box sx={{ py: 8, textAlign: 'center', backgroundColor: '#e29ba3', color: 'common.white' }}>
         <Typography variant="h4" component="h2" gutterBottom fontWeight={700} fontFamily={'Quicksand'}> 
           Ready to Elevate Your Style?
         </Typography>
