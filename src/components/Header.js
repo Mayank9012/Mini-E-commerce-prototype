@@ -95,7 +95,7 @@ const Header = () => {
             <IconButton edge="start" color="inherit" aria-label="menu" onClick={toggleDrawer(true)}>
               <Menu />
             </IconButton>
-            <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)}>
+            <Drawer anchor="left" open={drawerOpen} onClose={toggleDrawer(false)} PaperProps={{sx: { width: '75%' }, }}>
               {menuItems}
             </Drawer>
           </>
